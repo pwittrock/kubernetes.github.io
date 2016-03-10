@@ -30,7 +30,7 @@ New users of Google Cloud Platform recieve a [$300 free trial](https://console.d
 
 Next, make sure you []download Node.js](https://nodejs.org/en/download/).
 
-Finally, 
+Finally,
 
 ## Create your Node.js application
 
@@ -120,7 +120,7 @@ If all goes well, you should be able to see the container image listed in the co
 
 ## Create your cluster
 
-A cluster consists of a master API server and a set of worker VMs called nodes. 
+A cluster consists of a master API server and a set of worker VMs called nodes.
 
 Create a cluster via the Console: *Compute > Container Engine > Container Clusters > New container cluster*. Leave all the options default, and you should get a Kubernetes cluster with three nodes, ready to receive your container image.
 
@@ -164,7 +164,7 @@ From our development machine we can expose the pod with the `kubectl` expose com
 kubectl expose rc hello-node --type="LoadBalancer"
 ```
 
-The flag used in this command specifies that we’ll be using the load-balancer provided by the underlying infrastructure (in this case the [Compute Engine load balancer](https://cloud.google.com/compute/docs/load-balancing/)). The `rc` refers to the Kubernetes "replication controller" -- which is a Kubernetes service which controls load balancing and scaling behavior for your cluster. 
+The flag used in this command specifies that we’ll be using the load-balancer provided by the underlying infrastructure (in this case the [Compute Engine load balancer](https://cloud.google.com/compute/docs/load-balancing/)). The `rc` refers to the Kubernetes "replication controller" -- which is a Kubernetes service which controls load balancing and scaling behavior for your cluster.
 
 The Kubernetes master creates the load balancer and related Compute Engine forwarding rules, target pools, and firewall rules to make the service fully accessible from outside of Google Cloud Platform.
 
@@ -195,7 +195,7 @@ hello-node-gxhty   1/1       Running   0          34s
 hello-node-z2odh   1/1       Running   0          34s
 ```
 
-You now have four replicas of your application, each running independently on the cluster with the load balancer you created earlier and serving traffic to all of them. 
+You now have four replicas of your application, each running independently on the cluster with the load balancer you created earlier and serving traffic to all of them.
 
 ```shell
 kubectl get rc hello-node
@@ -275,7 +275,7 @@ Navigate to the URL that is shown under after KubeUI is running at and log in wi
 
 ## That's it! Time to tear it down
 
-That's it for the demo! So you don't leave this all running and incur charges, let's learn how to tear things down. 
+That's it for the demo! So you don't leave this all running and incur charges, let's learn how to tear things down.
 
 First, delete the Service, which also deletes your external load balancer:
 

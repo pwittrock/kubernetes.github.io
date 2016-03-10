@@ -3,7 +3,7 @@
 We have a wide variety of samples to choose from:
 
 * "Clustered Application Samples" and "Persistent Volume Samples" provide some
-examples that show how to implement some popular software packages such as OpenShift, Ceph, Cassandra, and WordPress. These guides 
+examples that show how to implement some popular software packages such as OpenShift, Ceph, Cassandra, and WordPress. These guides
 try to serve as canonical walkthroughs that help you use familiar packages with Kubernetes.
 
 * "Mulit-tier Application Samples" are generally of a more contrived and instructional nature, highlighting key concepts that
@@ -12,7 +12,7 @@ you'll encounter when developing with Kubernetes, and teaching some principles o
 ## Recently updated samples
 
 The Kubernetes team is highlighting these samples as being the most up-to-date. Active upkeep is being done or has recently been done
-on these samples to ensure they are high quality and work on Kubernetes {{page.version}}. 
+on these samples to ensure they are high quality and work on Kubernetes {{page.version}}.
 
 <p>&nbsp;</p>
 
