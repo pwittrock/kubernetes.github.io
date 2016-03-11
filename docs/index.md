@@ -9,7 +9,9 @@ h2, h3, h4 {
   padding-left: 2px;
   overflow: auto;
 }
-#samples a {
+
+# samples a {
+
   color: #000;
 }
 .col3rd {
