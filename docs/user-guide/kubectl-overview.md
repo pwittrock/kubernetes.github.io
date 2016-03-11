@@ -160,6 +160,7 @@ where the `template.txt` file contains:
 NAME                    RSRC
       metadata.name           metadata.resourceVersion
 ```
+
 The result of running either command is:
 
 ```shell

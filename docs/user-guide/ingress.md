@@ -140,6 +140,7 @@ test      -
           /foo          s1:80
           /bar          s2:80
 ```
+
 The Ingress controller will provision an implementation specific loadbalancer that satisfies the Ingress, as long as the services (s1, s2) exist. When it has done so, you will see the address of the loadbalancer under the last column of the Ingress.
 
 ### Name based virtual hosting

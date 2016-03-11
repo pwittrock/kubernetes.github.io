@@ -158,6 +158,7 @@ And also note the IP address on the other node:
 bash-4.3# ip a l eth0 | grep inet
     inet 18.16.90.4/24 scope global eth0
 ```
+
 Now ping from the first node to the other node:
 
 ```shell

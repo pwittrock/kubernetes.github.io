@@ -121,3 +121,4 @@ Running kubelet periodically scans the configured directory (`/etc/kubelet.d` in
 CONTAINER ID        IMAGE         COMMAND                CREATED           ...
 e7a62e3427f1        nginx:latest  "nginx -g 'daemon of   27 seconds ago
 ```
+

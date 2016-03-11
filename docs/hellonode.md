@@ -80,6 +80,7 @@ Now build an image of your container by running `docker build`, tagging the imag
 ```shell
 docker build -t gcr.io/PROJECT_ID/hello-node:v1 .
 ```
+
 Now there is a trusted source for getting an image of your containerized app.
 
 Let's try your image out with Docker:

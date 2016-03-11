@@ -91,3 +91,4 @@ request as well.
 kubectl delete rc,service -l type=show-type
 kubectl delete rc,service -l type=backend-type
 ```
+

@@ -392,3 +392,4 @@ You can ensure that vagrant uses nfs to sync folders with virtual machines by se
 ```shell
 export KUBERNETES_VAGRANT_USE_NFS=true
 ```
+

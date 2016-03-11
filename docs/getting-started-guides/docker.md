@@ -179,3 +179,4 @@ parameters as follows:
     $ cat /proc/cmdline
     BOOT_IMAGE=/boot/vmlinuz-3.18.4-aufs root=/dev/sda5 ro cgroup_enable=memory swapaccount=1
     ```
+

@@ -308,3 +308,4 @@ kubectl get nodes
 NAME          LABELS                               STATUS
 kube-node-1   kubernetes.io/hostname=kube-node-1   Ready
 ```
+

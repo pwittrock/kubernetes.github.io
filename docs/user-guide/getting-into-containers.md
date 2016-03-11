@@ -13,6 +13,7 @@ We first create a pod and a service,
 $ kubectl create -f examples/guestbook/redis-master-controller.yaml
 $ kubectl create -f examples/guestbook/redis-master-service.yaml
 ```
+
 wait until the pod is Running and Ready,
 
 ```shell

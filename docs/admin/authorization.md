@@ -121,6 +121,7 @@ A service account automatically generates a user. The user's name is generated a
 ```shell
 system:serviceaccount:<namespace>:<serviceaccountname>
 ```
+
 Creating a new namespace also causes a new service account to be created, of this form:*
 
 ```shell

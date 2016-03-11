@@ -141,3 +141,4 @@ For Kubernetes 1.0, we strongly recommend running the following set of admission
 ```shell
 --admission-control=NamespaceLifecycle,LimitRanger,SecurityContextDeny,ServiceAccount,ResourceQuota
 ```
+

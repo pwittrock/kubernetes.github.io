@@ -264,3 +264,4 @@ Grafana is running at https://108.59.85.141/api/v1/proxy/namespaces/kube-system/
 Heapster is running at https://108.59.85.141/api/v1/proxy/namespaces/kube-system/services/monitoring-heapster
 InfluxDB is running at https://108.59.85.141/api/v1/proxy/namespaces/kube-system/services/monitoring-influxdb
 ```
+

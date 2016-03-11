@@ -138,6 +138,7 @@ Labels selectors for both objects are defined in `json` or `yaml` files using ma
     "component" : "redis",
 }
 ```
+
 or
 
 ```yaml

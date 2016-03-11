@@ -57,3 +57,4 @@ volume:
 $ kubectl logs secret-test-pod
 2015-04-29T21:17:24.712206409Z content of file "/etc/secret-volume/data-1": value-1
 ```
+

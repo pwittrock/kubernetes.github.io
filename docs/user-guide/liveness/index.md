@@ -65,3 +65,4 @@ Sat, 27 Jun 2015 13:44:44 +0200    Sat, 27 Jun 2015 13:44:44 +0200    1    {kube
 Sat, 27 Jun 2015 13:44:44 +0200    Sat, 27 Jun 2015 13:44:44 +0200    1    {kubelet kubernetes-node-6fbi}    spec.containers{liveness}    created    Created with docker id ed6bb004ee10
 Sat, 27 Jun 2015 13:44:44 +0200    Sat, 27 Jun 2015 13:44:44 +0200    1    {kubelet kubernetes-node-6fbi}    spec.containers{liveness}    started    Started with docker id ed6bb004ee10
 ```
+

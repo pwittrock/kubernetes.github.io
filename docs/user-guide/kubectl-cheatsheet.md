@@ -120,3 +120,4 @@ $ kubectl port-forward <servicename> <port>               # Forward port to serv
 $ kubectl exec <pod-name> -- ls /                         # Run command in existing pod (1 container case) 
 $ kubectl exec <pod-name> -c <container-name> -- ls /     # Run command in existing pod (multi-container case) 
 ```
+
